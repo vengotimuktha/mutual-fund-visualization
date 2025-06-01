@@ -99,7 +99,7 @@ All members collaboratively contributed to planning, development, and refining u
 ## How to Run Locally
 
 ```bash
-git clone https://github.com/your-username/mutual-fund-visualization.git
+git clone https://github.com/vengotimuktha/mutual-fund-visualization.git
 cd mutual-fund-visualization
 
 # Open any of these in a browser:
