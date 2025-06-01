@@ -29,7 +29,7 @@ All members collaboratively contributed to planning, development, and refining u
 
 ## Features
 
-- Fully browser-based interactive dashboard (no backend required)
+- Fully browser-based interactive dashboard 
 - Visualization modules: Bar Chart, Scatter Plot, Treemap
 - Dynamic filtering, brushing, zoom, tooltips, and axis scaling
 - Modular architecture for easy maintenance and scalability
