@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mutual Fund Returns - Task 1</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body { font-family: sans-serif; margin: 40px; }
+    .bar { fill-opacity: 0.7; }
+    .axis-label { font-size: 12px; }
+    .tooltip {
+      position: absolute;
+      background: #eee;
+      padding: 5px;
+      border: 1px solid #aaa;
+      pointer-events: none;
+      visibility: hidden;
+    }
+  </style>
+</head>
+<body>
+  <h2>📊 Mutual Fund Returns (YTD, 3MO, 1YR, 3YR, 5YR, 10YR)</h2>
+
+  <label for="fundCount">Select number of top funds to display:</label>
+  <select id="fundCount">
+    <option value="10" selected>Top 10</option>
+    <option value="20">Top 20</option>
+    <option value="50">Top 50</option>
+  </select>
+
+  <br><br>
+  <label for="sortPeriod">Sort funds by:</label>
+  <select id="sortPeriod">
+    <option value="5YR" selected>5YR Return (default)</option>
+    <option value="1YR">1YR Return</option>
+    <option value="YTD">YTD Return</option>
+    <option value="3YR">3YR Return</option>
+    <option value="3MO">3MO Return</option>
+    <option value="10YR">10YR Return</option>
+  </select>
+  
+
+  <!-- Scrollable wrapper for wider charts -->
+  <div style="overflow-x: auto;">
+    <div id="chart"></div>
+  </div>
+
+  <div class="tooltip" id="tooltip"></div>
+  <script src="task1_script.js"></script>
+</body>
+</html>

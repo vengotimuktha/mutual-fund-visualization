@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task 3 – Treemap of Fund Categories</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body { font-family: sans-serif; margin: 40px; }
+    .tooltip {
+      position: absolute;
+      background: #fff;
+      padding: 8px;
+      border: 1px solid #aaa;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+      pointer-events: none;
+      visibility: hidden;
+    }
+    .reset-btn {
+      margin-top: 10px;
+      padding: 6px 12px;
+      background-color: #f2f2f2;
+      border: 1px solid #ccc;
+      cursor: pointer;
+    }
+    .legend {
+      font-size: 12px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h2>📦 Treemap: Mutual Fund Categories by Total Assets</h2>
+  <div id="chart-container" style="max-width: 1000px;"></div>
+  <button class="reset-btn" onclick="resetZoom()">🔍 Reset Zoom</button>
+  <div id="legend" class="legend"></div>
+  <div class="tooltip" id="tooltip"></div>
+  <script src="task3_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task 2 – Expense Ratio vs Return</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body { font-family: sans-serif; margin: 40px; }
+    .tooltip {
+      position: absolute;
+      background: #eee;
+      padding: 5px;
+      border: 1px solid #aaa;
+      pointer-events: none;
+      visibility: hidden;
+    }
+  </style>
+</head>
+<body>
+  <h2>📈 Scatter Plot: Expense Ratio vs Return</h2>
+
+  <label for="returnType">Select return period:</label>
+  <select id="returnType">
+    <option value="3MO">3MO Return</option>
+    <option value="YTD">YTD Return</option>
+    <option value="1YR">1YR Return</option>
+    <option value="3YR">3YR Return</option>
+    <option value="5YR" selected>5YR Return</option>
+    <option value="10YR">10YR Return</option>
+  </select>
+  
+
+  <div id="scatter"></div>
+  <div class="tooltip" id="tooltip"></div>
+
+  <script src="task2_script.js"></script>
+</body>
+</html>
