@@ -47,7 +47,8 @@ All members collaboratively contributed to planning, development, and refining u
 - Tooltip: View exact return values on hover
 - Scroll: Navigate horizontal overflow
 
-[Live View – Bar Chart](https://subhasmita23-s.github.io/Mutual_fund_Vis/task1_bar_chart/task1_index.html)
+> File: `task1_bar_chart/task1_index.html`
+
 
 
 ---
@@ -60,7 +61,8 @@ All members collaboratively contributed to planning, development, and refining u
 - Color scale: Encodes return strength visually
 - Axes adjust automatically to data range
 
-[Live View – Scatter Plot](https://subhasmita23-s.github.io/Mutual_fund_Vis/task2_scatter_plot/task2_index.html)
+> File: `task2_scatter_plot/task2_index.html`
+
 
 
 ---
@@ -73,7 +75,8 @@ All members collaboratively contributed to planning, development, and refining u
 - Tooltip: Category name, total assets, fund count, asset share %
 - Color scale: Relative total assets
 
-[Live View – Treemap](https://subhasmita23-s.github.io/Mutual_fund_Vis/task3_treemap/task3_index.html)
+> File: `task3_treemap/task3_index.html`
+
 
 
 ---
