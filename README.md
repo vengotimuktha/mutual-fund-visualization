@@ -10,7 +10,7 @@ Developed as part of the *Information Visualization* course at Kent State Univer
 
 ## Live Demo & Source
 
-- **Live Site:** [https://subhasmita23-s.github.io/Mutualfund-vis/](https://subhasmita23-s.github.io/Mutualfund-vis/)
+- **Live Site:** [https://subhasmita23-s.github.io/Mutualfund-vis/](https://subhasmita23-s.github.io/Mutual_fund_Vis/)
 - **GitHub Repository:** [https://github.com/Subhasmita23-S/Mutualfund-vis](https://github.com/Subhasmita23-S/Mutualfund-vis)
 
 ---
